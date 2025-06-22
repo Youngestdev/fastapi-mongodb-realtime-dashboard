@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Dashboard</title>
+</head>
+<style>
+  body {
+    font-family: sans-serif;
+    padding: 2rem;
+    background: #f9f9f9;
+  }
+  h1 {
+    text-align: center;
+  }
+  #orders {
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+  .order {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid green;
+  }
+  .order.update { border-color: orange; }
+  .order.delete { border-color: red; }
+</style>
+<body>
+  <h1>Live Order Tracking</h1>
+  <div id="orders"></div>
+  <script src="/static/index.js"></script>
+</body>
+</html>
