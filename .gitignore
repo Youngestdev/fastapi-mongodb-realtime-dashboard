@@ -1,0 +1,10 @@
+venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+*.log
+*.egg-info      
